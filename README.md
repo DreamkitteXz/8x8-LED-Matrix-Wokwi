@@ -136,3 +136,5 @@ void loop(){
 <p>3. Selecione a porta <code>COM</code></p>
 <p>4. Execute o código.</p>
 <p align='center'><img src="arduino.gif.gif" alt="Screen" width="600" height="337">
+<p> Espere o seguinte resultado:</p>
+<img src="Happy.gif" alt="Screen" width="600" height="1067">
