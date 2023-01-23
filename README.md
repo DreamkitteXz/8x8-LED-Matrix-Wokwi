@@ -135,6 +135,6 @@ void loop(){
 <p>2. Copie e cole o código para o Arduino IDE.</p>
 <p>3. Selecione a porta <code>COM</code></p>
 <p>4. Execute o código.</p>
-<p align='center'><img src="arduino.gif.gif" alt="Screen" width="600" height="337">
+<p align='center'><img src="Arduinoide.gif" alt="Screen" width="600" height="337">
 <p> Espere o seguinte resultado:</p>
-<img src="Happy.gif" alt="Screen" width="600" height="1067">
+<p align='center'><img src="Happy.gif" alt="Screen" width="600" height="1067"></p>
