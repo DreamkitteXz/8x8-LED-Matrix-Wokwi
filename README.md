@@ -53,7 +53,7 @@ Voce ira aprender:
 <h3>Emoji</h3>
 <p> Logo abaixo tem o código que mostra um Emoji sorrindo, mas antes de executarmos esse código temos que instalar a biblioteca <code>LedControl.h</code> para o código funcionar. Para fazer isso é muito facil, basta você clicar em <code>Library Manager</code> e pesquisar por <code>LedControl</code>.
 </p>
-<img src="Library.png" alt="Screen" width="900" height="548">
+<img src="Library.png" alt="Screen" width="900" height="400">
 <h3 align='center'>Código</h3>
 <p align='center'><pre><code >
 
