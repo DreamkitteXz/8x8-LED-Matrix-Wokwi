@@ -24,7 +24,7 @@ Voce ira aprender:
       <p>Clique <a href="https://wokwi.com/projects/354649261697701889">nesse link</a> e você será redirecionado ao projeto no Wokwi. Onde já esta os componentes e sua respectivas conexões.</p>
     <h3>Conexões</h3>
       <p>As conxões do outro lado do modulo do Led não serão feitas pois nosso objetivo é usar apenas uma matriz de 8x8 mas se você quisesse ligar mais de uma ai sim isso seria necessário.</p>
-      <p align='center'><table border="1">
+      <table border="3" align='center'>
     <tr>
         <td><b>Pinos Led</b></td>
         <td><b>Pinos Arduino</b></td>
