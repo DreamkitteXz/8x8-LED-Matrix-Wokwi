@@ -55,6 +55,7 @@ Voce ira aprender:
 </p>
 <img src="Library.png" alt="Screen" width="900" height="400">
 <h3 align='center'>Código</h3>
+<p > Agora execute o código:</p>
 <p align='center'><pre><code >
 
 #include "LedControl.h"
@@ -123,3 +124,15 @@ void drawFaces(){
 void loop(){
   drawFaces();
 }</code></pre></p>
+<p>Espere o seguinte resultado:</p>
+<p align='center'><img src="ezgif.com-gif-maker (5).gif" alt="Screen" width="600" height="337">
+<h3 align='center'>
+  Testando na prática
+</h3>
+<p>
+  <p>Agora vamos testar na prática o que fizemos no simulador, iremos precisar dos mesmos componentes e serão as mesmas conexões e utilizaremos o Arduino IDE.</p>
+<p>1. Monte seu circuito na prática fazendo as mesmas conexões</p>
+<p>2. Copie e cole o código para o Arduino IDE.</p>
+<p>3. Selecione a porta <code>COM</code></p>
+<p>4. Execute o código.</p>
+<p align='center'><img src="arduino.gif.gif" alt="Screen" width="600" height="337">
