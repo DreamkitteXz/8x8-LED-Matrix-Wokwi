@@ -21,9 +21,9 @@ Voce ira aprender:
     <li>8x8 LED Dot Matrix with MAX7219 Controller<p align='center'><img src="https://raw.githubusercontent.com/gist/DreamkitteXz/f73cf72a38741b16a3b242c1f9c6d438/raw/3cb9e826bdac35c51cb7cfd657911a2fa0955045/download.svg" alt="Screen" width="389" height="72"></p></li> 
     <li>Arduino Uno.<p align='center'><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Arduino_Uno_%28Versi%C3%B3n_Inform%C3%A1tica%29.png" alt="Screen" width="417" height="212"></p></li> 
 </ul>
-      <p>Clique <a href="https://wokwi.com/projects/354649261697701889">nesse link</a> e você será redirecionado ao projeto no Wokwi. Onde já esta os componentes e sua respectivas conexões.</p>
+      <p>Clique <a href="https://wokwi.com/projects/354667603761960961">nesse link</a> e você será redirecionado ao projeto no Wokwi. Onde já esta os componentes e sua respectivas conexões.</p>
     <h3>Conexões</h3>
-      <p>As conxões do outro lado do modulo do Led não serão feitas pois nosso objetivo é usar apenas uma matriz de 8x8 mas se você quisesse ligar mais de uma ai sim isso seria necessário.</p>
+      <p>As conexões do outro lado do módulo do Led não serão feitas, pois nosso objetivo é usar apenas uma matriz de 8x8.</p>
       <table border="3" align='center'>
     <tr>
         <td><b>Pinos Led</b></td>
@@ -130,7 +130,7 @@ void loop(){
   Testando na prática
 </h3>
 <p>
-  <p>Agora vamos testar na prática o que fizemos no simulador, iremos precisar dos mesmos componentes e serão as mesmas conexões e utilizaremos o Arduino IDE.</p>
+  <p>Agora vamos testar na prática o que fizemos no simulador, iremos precisar dos mesmos componentes, serão as mesmas conexões e utilizaremos o Arduino IDE.</p>
 <p>1. Monte seu circuito na prática fazendo as mesmas conexões</p>
 <p>2. Copie e cole o código para o Arduino IDE.</p>
 <p>3. Selecione a porta <code>COM</code></p>
