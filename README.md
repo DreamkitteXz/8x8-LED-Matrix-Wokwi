@@ -158,3 +158,7 @@ void loop(){
 <h4 align='center'>byte arrays</h4>
 <img src="Untitled.png" alt="Screen" width="964" height="150">
 <p> Essas Arrays de Bytes são o que informa... os pontos gráficos que serão acionados no Display </p>
+<p align='center'><img src="jhg.png" alt="Screen" width="222" height="166"></p>
+<p><code>lc.shutdown(0,false);</code> Liga o Display.</p>
+<p><code>lc.setIntensity(0,8);</code> Configura o brilho do Display, sendo o máximo 15 e o mínimo 0.</p>
+<p><code>lc.clearDisplay(0);</code> Limpa o display após liga-lo.</p>
