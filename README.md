@@ -154,3 +154,7 @@ void loop(){
 <b>setRow(addr, linha, valor)</b>
 <p></p>
 <b>setCol(addr, coluna, valor)</b>
+
+<h4 align='center'>byte arrays</h4>
+<img src="Untitled.png" alt="Screen" width="964" height="168">
+<p> Essas Arrays de Bytes são o que informa... os pontos gráficos que serão acionados no Display </p>
