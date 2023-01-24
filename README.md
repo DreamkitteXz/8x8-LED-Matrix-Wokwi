@@ -151,3 +151,6 @@ void loop(){
 <li><code>col</code> é a coluna onde o led está localizado</li>  
 <li><code>Estado</code> <ul><li>É verdadeiro ou 1 se quiser acender o led</li><li>É falso ou 0 se você quiser desligá-lo</li></ul></li> 
 </ul>
+<b>setRow(addr, linha, valor)</b>
+<p></p>
+<b>setCol(addr, coluna, valor)</b>
