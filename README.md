@@ -138,3 +138,16 @@ void loop(){
 <p align='center'><img src="Arduinoide.gif" alt="Screen" width="600" height="337">
 <p> Espere o seguinte resultado:</p>
 <p align='center'><img src="Happy.gif" alt="Screen" width="600" height="1067"></p>
+<h3 align='center'>
+  Explicando o código
+</h3>
+<h4 align='center'>Usando as funções da biblioteca LedControl</h4>
+<p>A maneira mais fácil de exibir algo na matriz de pontos é usando as funções <code>setLed()</code> , <code>setRow()</code> ou <code>setColumn()</code> . Estas funções permitem controlar um único led, uma linha ou uma coluna de cada vez.</p>
+<p>Aqui estão os parâmetros para cada função:</p>
+<b>setLed(addr, linha, coluna, estado)</b>
+<ul>
+    <li><code>addr</code> é o endereço da sua matriz, por exemplo, se você tiver apenas 1 matriz, o int addr será zero.</li>  
+    <li><code>linha</code> é a linha onde o led está localizado.</li>  
+<li><code>col</code> é a coluna onde o led está localizado</li>  
+<li><code>Estado</code> <ul><li>É verdadeiro ou 1 se quiser acender o led</li><li>É falso ou 0 se você quiser desligá-lo</li></ul></li> 
+</ul>
