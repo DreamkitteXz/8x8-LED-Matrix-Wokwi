@@ -5,21 +5,23 @@
   Visão geral 
 </h3>
 <p>
-  <p></p>
-<p>Você irá brincar com a Matriz de LED Escrevendo alguma coisa e aparecendo no Letreiro.</p>
+  <p>Wokwi é um simulador de Eletrônica online. Você pode usá-lo para simular Arduino, ESP32 e muitas outras placas, peças e sensores populares. Iremos fazer uma carinha feliz na matrix de led 8x8 no Wokwi e depois testar na prática para ver se funciona.</p>
+<p>Visite esse <a href="https://embarcados.com.br/wokwi-simulador-de-esp32/#O-que-e-o-Wokwi
+">artigo</a> se voçê quiser saber mais sobre a plataforma.</p>
 </p>
 <p>
 Voce ira aprender:
 <ul>
-    <li>Instalar uma biblioteca no Arduino IDE.</li>  
+    <li>Instalar uma biblioteca no Wokwi</li>  
 </ul>
 
   <h2 align='center'>Começando...</h2>
       <h3>Componentes utilizados</h3>
       <ul>
-    <li>8x24 LED Dot Matrix with MAX7219 Controller<p align='center'><img src="https://raw.githubusercontent.com/gist/DreamkitteXz/f73cf72a38741b16a3b242c1f9c6d438/raw/3cb9e826bdac35c51cb7cfd657911a2fa0955045/download.svg" alt="Screen" width="389" height="72"></p></li> 
+    <li>8x8 LED Dot Matrix with MAX7219 Controller<p align='center'><img src="https://raw.githubusercontent.com/gist/DreamkitteXz/f73cf72a38741b16a3b242c1f9c6d438/raw/3cb9e826bdac35c51cb7cfd657911a2fa0955045/download.svg" alt="Screen" width="389" height="72"></p></li> 
     <li>Arduino Uno.<p align='center'><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Arduino_Uno_%28Versi%C3%B3n_Inform%C3%A1tica%29.png" alt="Screen" width="417" height="212"></p></li> 
 </ul>
+      <p>Clique <a href="https://wokwi.com/projects/354667603761960961">nesse link</a> e você será redirecionado ao projeto no Wokwi. Onde já esta os componentes e sua respectivas conexões.</p>
     <h3>Conexões</h3>
       <p>As conexões do outro lado do módulo do Led não serão feitas, pois nosso objetivo é usar apenas uma matriz de 8x8.</p>
       <table border="3" align='center'>
@@ -37,7 +39,7 @@ Voce ira aprender:
     </tr>
     <tr>
         <td align='center'>DIN</td>
-        <td align='center'>Pin 11</td>
+        <td align='center'>Pin 12</td>
     </tr>
     <tr>
         <td align='center'>CS</td>
@@ -45,13 +47,13 @@ Voce ira aprender:
     </tr>
     <tr>
         <td align='center'>CLK</td>
-        <td align='center'>pin 13</td>
+        <td align='center'>pin 11</td>
     </tr>
 </table>
-<h3>Letreiro</h3>
-<p> Logo abaixo tem o código de um letreiro que mostra um o texto que você quiser, mas antes de executarmos esse código temos que instalar a biblioteca <code>Max72xxPanel.h</code> para o código funcionar. Para fazer isso é muito facil, basta você clicar em <code>NESSE LINK</code> baixar a pasta compactada, depois ir no Arduino IDE e Clicar em <code>Sketch</code> > <code>Incluir bibliioteca</code>  <code>Adicionar .ZIP</code> .
+<h3>Emoji</h3>
+<p> Logo abaixo tem o código que mostra um Emoji sorrindo, mas antes de executarmos esse código temos que instalar a biblioteca <code>LedControl.h</code> para o código funcionar. Para fazer isso é muito facil, basta você clicar em <code>Library Manager</code> e pesquisar por <code>LedControl</code>.
 </p>
-<p align='center'><img src="c.png" alt="Screen" width="641" height="357"></p>
+<img src="Library.png" alt="Screen" width="900" height="400">
 <h3 align='center'>Código</h3>
 <p > Agora execute o código:</p>
 <p align='center'><pre><code >
