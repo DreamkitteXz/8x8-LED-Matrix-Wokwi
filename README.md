@@ -5,7 +5,7 @@
   Visão geral 
 </h3>
 <p>
-  <p>Wokwi é um simulador de Eletrônica online. Você pode usá-lo para simular Arduino, ESP32 e muitas outras placas, peças e sensores populares. Iremos fazer uma carinha feliz na matrix de led 8x8 no Wokwi e depois testar na prática para ver se funciona.</p>
+  <p>Wokwi é um simulador de Eletrônica online. Você pode usá-lo para simular Arduino, ESP32 e muitas outras placas, peças e sensores populares. Iremos fazer uma carinha feliz na matrix de led 8x8 no Wokwi e depcois testar na prática para ver se funciona.</p>
 <p>Visite esse <a href="https://embarcados.com.br/wokwi-simulador-de-esp32/#O-que-e-o-Wokwi
 ">artigo</a> se voçê quiser saber mais sobre a plataforma.</p>
 </p>
