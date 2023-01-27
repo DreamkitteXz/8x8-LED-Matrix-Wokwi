@@ -10,7 +10,7 @@
 ">artigo</a> se voçê quiser saber mais sobre a plataforma.</p>
 </p>
 <p>
-Voce ira aprender:
+Voce irá aprender:
 <ul>
     <li>Instalar uma biblioteca no Wokwi</li>  
 </ul>
@@ -21,7 +21,7 @@ Voce ira aprender:
     <li>8x8 LED Dot Matrix with MAX7219 Controller<p align='center'><img src="https://raw.githubusercontent.com/gist/DreamkitteXz/f73cf72a38741b16a3b242c1f9c6d438/raw/3cb9e826bdac35c51cb7cfd657911a2fa0955045/download.svg" alt="Screen" width="389" height="72"></p></li> 
     <li>Arduino Uno.<p align='center'><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Arduino_Uno_%28Versi%C3%B3n_Inform%C3%A1tica%29.png" alt="Screen" width="417" height="212"></p></li> 
 </ul>
-      <p>Clique <a href="https://wokwi.com/projects/354667603761960961">nesse link</a> e você será redirecionado ao projeto no Wokwi. Onde já esta os componentes e sua respectivas conexões.</p>
+      <p>Clique <a href="https://wokwi.com/projects/354667603761960961">nesse link</a> e você será redirecionado ao projeto no Wokwi. Onde já estão os componentes e sua respectivas conexões.</p>
     <h3>Conexões</h3>
       <p>As conexões do outro lado do módulo do Led não serão feitas, pois nosso objetivo é usar apenas uma matriz de 8x8.</p>
       <table border="3" align='center'>
