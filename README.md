@@ -53,7 +53,7 @@ Voce ira aprender:
 <h3>Emoji</h3>
 <p> Logo abaixo tem o código que mostra um Emoji sorrindo, mas antes de executarmos esse código temos que instalar a biblioteca <code>LedControl.h</code> para o código funcionar. Para fazer isso é muito facil, basta você clicar em <code>Library Manager</code> e pesquisar por <code>LedControl</code>.
 </p>
-<img src="Library.png" alt="Screen" width="900" height="400">
+<img src="Images\Library.png" alt="Screen" width="900" height="400">
 <h3 align='center'>Código</h3>
 <p > Agora execute o código:</p>
 <p align='center'><pre><code >
@@ -135,9 +135,9 @@ void loop(){
 <p>2. Copie e cole o código para o Arduino IDE.</p>
 <p>3. Selecione a porta <code>COM</code></p>
 <p>4. Execute o código.</p>
-<p align='center'><img src="Arduinoide.gif" alt="Screen" width="600" height="337">
+<p align='center'><img src="Images\Arduinoide.gif" alt="Screen" width="600" height="337">
 <p> Espere o seguinte resultado:</p>
-<p align='center'><img src="Happy.gif" alt="Screen" width="600" height="1067"></p>
+<p align='center'><img src="Images\Happy.gif" alt="Screen" width="600" height="1067"></p>
 <h3 align='center'>
   Explicando o código
 </h3>
@@ -156,16 +156,16 @@ void loop(){
 <b>setCol(addr, coluna, valor)</b>
 
 <h4 align='center'>byte arrays</h4>
-<img src="Untitled.png" alt="Screen" width="964" height="150">
+<img src="Images\Untitled.png" alt="Screen" width="964" height="150">
 <p> Essas Arrays de Bytes são o que informa os pontos gráficos(Led's) que serão acionados no Display </p>
-<p align='center'><img src="jhg.png" alt="Screen" width="222" height="166"></p>
+<p align='center'><img src="Images\jhg.png" alt="Screen" width="222" height="166"></p>
 <p><code>lc.shutdown(0,false);</code> Liga o Display.</p>
 <p><code>lc.setIntensity(0,8);</code> Configura o brilho do Display, sendo o máximo 15 e o mínimo 0.</p>
 <p><code>lc.clearDisplay(0);</code> Limpa o display após liga-lo.</p>
-<p align='center'><img src="sfes.png" alt="Screen" width="232" height="267"></p>
+<p align='center'><img src="Images\sfes.png" alt="Screen" width="232" height="267"></p>
 <p><code>void drawFaces(){</code> é uma função void onde mostra a cara triste, neutra e feliz.</p>
 <p><code>lc.setRow(0,0,sf[0]);</code> A função setRow(addr,row,value) recebe 3 argumentos. O primeiro é o endereço do dispositivo. O segundo é a linha que precisa ser atualizada e o terceiro é o valor a ser definido para esta linha.</p>
 <p><code>delay(delaytime);</code> Tempo de delay, nesse caso 1 segundo entre as faces, foi atribuido á uma variável global mas poderia ser o valor numérico em milissegundos normal.</p>
-<p align='center'><img src="Loop.png" alt="Screen" width="155" height="105"></p>
+<p align='center'><img src="Images\Loop.png" alt="Screen" width="155" height="105"></p>
 <p><code>void loop(){</code> Executa o código em loop.</p>
 <p><code>drawFaces();</code> Executa o código que está na função que acabamos de criar <code>void drawFaces(){</code>.</p>
